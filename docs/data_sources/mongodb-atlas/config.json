@@ -5,7 +5,7 @@
         "clusterName": "Powertech",
         "namespacePreimageConfigs": [
             {
-                "collectionName": "Account Collection",
+                "collectionName": "Transfer Collection",
                 "dbName": "PowerDb",
                 "recordPreimages": true
             }
