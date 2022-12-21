@@ -1,0 +1,31 @@
+{
+    "id": "63a2bdfcd4f686c7f9dee0f6",
+    "name": "Convert",
+    "type": "DATABASE",
+    "config": {
+        "operation_types": [
+            "REPLACE",
+            "DELETE",
+            "UPDATE",
+            "INSERT"
+        ],
+        "database": "PowerDb",
+        "collection": "Currency Collection",
+        "service_name": "mongodb-atlas",
+        "match": {},
+        "project": {},
+        "full_document": true,
+        "full_document_before_change": true,
+        "unordered": false,
+        "skip_catchup_events": true,
+        "tolerate_resume_errors": false
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "Converter"
+            }
+        }
+    }
+}
