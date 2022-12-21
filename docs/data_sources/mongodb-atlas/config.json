@@ -3,6 +3,13 @@
     "type": "mongodb-atlas",
     "config": {
         "clusterName": "Powertech",
+        "namespacePreimageConfigs": [
+            {
+                "collectionName": "Account Collection",
+                "dbName": "PowerDb",
+                "recordPreimages": true
+            }
+        ],
         "readPreference": "primary",
         "wireProtocolEnabled": false
     },
