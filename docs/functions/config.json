@@ -12,5 +12,10 @@
         "name": "Converter",
         "private": true,
         "run_as_system": true
+    },
+    {
+        "name": "Indexer",
+        "private": true,
+        "run_as_system": true
     }
 ]
