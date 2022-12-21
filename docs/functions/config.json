@@ -7,5 +7,10 @@
     {
         "name": "Transfer",
         "private": true
+    },
+    {
+        "name": "Converter",
+        "private": true,
+        "run_as_system": true
     }
 ]
